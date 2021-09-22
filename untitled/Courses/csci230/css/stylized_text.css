@@ -1,0 +1,40 @@
+.blue-paragraph, #blue-paragraph{
+    color: cadetblue;
+}
+
+p:nth-of-type(5){
+    font-family: fantasy;
+}
+
+p:first-letter{
+    font-size: 130%;
+}
+
+#author{
+    font-style: italic;
+}
+
+[data-keywords="Mom"]{
+    font-weight: bold;
+}
+
+:not(h3){
+    font-size: large;
+}
+
+[data-keywords*="Dad"]::before{
+    content: "So yeah, I wasn\'t a handsome guys";
+    color: orange;
+}
+
+body{
+    text-align: center;
+}
+
+:nth-child(8){
+    color: #0a6ebd;
+}
+
+h3::after{
+    content: " \01F923";
+}

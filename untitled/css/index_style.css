@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+}
+
+#carouselcol{
+    position: absolute;
+    max-height: 50%;
+    max-width: 50%;
+    left: 25%;
+    top: 25%;
+}
+
+.carousel-control-prev{
+    opacity: 30%;
+    background-color: darkseagreen;
+}
+
+.carousel-control-next{
+    opacity: 30%;
+    background-color: darkseagreen;
+}
+
+.spinner-grow{
+    margin-left: 15%;
+    display: inline-flex;
+}
+
+.spincon{
+    position: absolute;
+    left: 50%;
+}
+
+@keyframes spinner-grow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: none;
+    }
+}

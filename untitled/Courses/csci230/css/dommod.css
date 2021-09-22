@@ -1,0 +1,235 @@
+.frame{
+    position: relative;
+    display: inline-flex;
+    top: 15%;
+    left: 25%;
+    width: 650px;
+    height: 500px;
+    background-color: goldenrod;
+    border-style: double;
+    border-width: 20px;
+    border-color: darkgoldenrod;
+}
+
+.sky{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    width: 610px;
+    height: 460px;
+    background: -webkit-linear-gradient(rebeccapurple, orange);
+}
+
+.grass{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    width: 610px;
+    height: 100px;
+    background: -webkit-linear-gradient(darkgreen, darkslategray);
+}
+
+.sun{
+    position: absolute;
+    bottom: 80px;
+    left: 275px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: radial-gradient(lightyellow, darkgoldenrod);
+}
+
+.mountain1{
+    position: absolute;
+    bottom: 80px;
+    width: 0;
+    height: 0px;
+    border-bottom: 150px solid darkslategray;
+    border-left: 150px solid transparent;
+}
+
+.mountainfront1{
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+    width: 0;
+    height: 0px;
+    border-bottom: 150px solid darkgreen;
+    border-right: 150px solid transparent;
+}
+
+.mountain2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid darkgreen;
+}
+
+#first{
+    bottom: 80px;
+}
+
+#second{
+    bottom: 80px;
+    left: 450px;
+}
+
+.cloud{
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: -webkit-linear-gradient(plum,lightyellow);
+}
+
+#c1{
+    top: 50px;
+    left: 100px;
+}
+
+#c2{
+    top: 60px;
+    left: 80px;
+}
+
+#c3{
+    top: 65px;
+    left: 120px;
+}
+
+#c4{
+    top: 100px;
+    left: 450px;
+}
+
+#c5{
+    top: 100px;
+    left: 475px;
+}
+
+#c6{
+    top: 115px;
+    left: 425px;
+}
+
+#c7{
+    top: 115px;
+    left: 460px;
+}
+
+#c8{
+    top: 115px;
+    left: 495px;
+}
+
+.moon {
+    position: relative;
+    display: inline-block;
+    top: 100px;
+    left: 275px;
+    background: radial-gradient(white, cornflowerblue);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    z-index: -1;
+}
+
+.moonmsg{
+    position: relative;
+    display: inline-block;
+    top: 100px;
+    left: 200px;
+    background-color: white;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    z-index: -1;
+
+}
+
+.stars{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: -1;
+}
+
+#st1{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    display: inline-block;
+    background: radial-gradient(white, cornflowerblue);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: -1;
+}
+
+#st2{
+    position: relative;
+    top: 50px;
+    left: 130px;
+    display: inline-block;
+    background: radial-gradient(white, cornflowerblue);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: -1;
+}
+
+#st3{
+    position: relative;
+    top: 50px;
+    left: 190px;
+    display: inline-block;
+    background: radial-gradient(white, cornflowerblue);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: -1;
+}
+
+#st4{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    display: inline-block;
+    background: radial-gradient(white, cornflowerblue);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: -1;
+}
+
+#st5{
+    position: relative;
+    top: 50px;
+    left: 230px;
+    display: inline-block;
+    background: radial-gradient(white, cornflowerblue);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: -1;
+}
+
+.howl{
+    position: absolute;
+    bottom: 80px;
+    left: 275px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: mediumpurple;
+    color: black;
+    text-align: center;
+    z-index: -1;
+}
+
